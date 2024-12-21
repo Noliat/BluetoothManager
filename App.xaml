@@ -1,0 +1,17 @@
+﻿<Application x:Class="BluetoothManager.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BluetoothManager"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://Application:,,,/Model/NotifyIconResources.xaml"/>
+                <ResourceDictionary Source="pack://Application:,,,/Styles/Styles.xaml"/>
+                <ResourceDictionary Source="pack://Application:,,,/Themes/Colors.xaml"/>
+                <ResourceDictionary Source="pack://Application:,,,/Themes/Dark.xaml"/>
+                <ResourceDictionary Source="pack://Application:,,,/Icons/Icons.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

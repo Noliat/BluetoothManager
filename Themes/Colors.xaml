@@ -1,0 +1,22 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!-- Cores claras -->
+
+    <Color x:Key="PrimaryLightColor">#FFFFFF</Color>
+    <Color x:Key="SecondaryLightColor">gray</Color>
+    <Color x:Key="TertiaryLightColor">#ff000000</Color>
+    <Color x:Key="LightBlurColor">#efffffff</Color>
+    <Color x:Key="LightBorderColor">#ef8d8d8d</Color>
+    
+    
+    <!-- Cores escuras -->
+    <Color x:Key="PrimaryDarkColor">#ff000000</Color>
+    <Color x:Key="SecondaryDarkColor">#454545</Color>
+    <Color x:Key="TertiaryDarkColor">#8d8d8d</Color>
+    <Color x:Key="DarkBlurColor">#ef222222</Color>
+    <Color x:Key="DarkBrderColor">#efffffff</Color>
+    <!-- Color x:Key=" ">#FFFFFF</Color-->
+
+
+</ResourceDictionary>
